@@ -13,13 +13,5 @@ class Produto(object):
 	def preco(self):
 		return self._preco
 
-	@nome.getter
-	def nome(self):
-		return self._nome
-
-	@preco.getter
-	def preco(self):
-		return self._preco
-
 	def __repr__(self):
 		return "Produto({}, R${:.2f})".format(self._nome,self._preco)
