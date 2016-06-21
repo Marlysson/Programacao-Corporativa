@@ -43,4 +43,6 @@ class Carrinho(object):
 # for produto in [produto1,produto2,produto3,produto4]:
 # 	carrinho.add_produto(produto)
 
-# print(carrinho.detalhes())
+# produto5 = Produto("Batata",2)
+
+# print(carrinho.count_produto(produto1))
