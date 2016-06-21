@@ -4,7 +4,7 @@ class Produto(object):
 	def __init__(self,nome,preco):
 		self._nome = nome.lower().capitalize()
 		self._preco = preco
-
+	
 	@property
 	def nome(self):
 		return self._nome
