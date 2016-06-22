@@ -2,13 +2,13 @@
 import sys,os
 
 #Adicionando pasta externa para capturar os modelos
-pasta_projeto = os.path.abspath("../")
-sys.path.append(pasta_projeto)
+# pasta_projeto = os.path.abspath("../")
+# sys.path.append(pasta_projeto)
 
-from cliente import Cliente
-from carrinho import Carrinho
-from produto import Produto
-from regras_negocio.pontos_cliente import Mais1000Pontos
+# from cliente import Cliente
+# from carrinho import Carrinho
+# from produto import Produto
+# from promocao.pontos_cliente import Mais1000Pontos
 
 class Compra(object):
 
@@ -22,6 +22,10 @@ class Compra(object):
 	def cliente(self):
 		return self._cliente
 
+	@property
+	def carrinho(self):
+		return self._carrinho
+		
 	@property
 	def descontos(self):
 		return self._descontos
@@ -77,5 +81,5 @@ class Compra(object):
 # compra.add_desconto(Mais1000Pontos())
 # compra.aplicar_descontos()
 
-print(compra.total)
-print(cliente.pontos)
+# print(compra.total)
+# print(cliente.pontos)
