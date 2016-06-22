@@ -1,3 +1,4 @@
 modelo/__pycache__
 modelo/*.pyc
-testes/*pyc
+testes/*.pyc
+regras_negocio/*.pyc
