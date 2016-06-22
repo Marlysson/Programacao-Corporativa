@@ -5,6 +5,10 @@ class Carrinho(object):
 		self._produtos = list()
 
 	@property
+	def produtos(self):
+		return self._produtos
+
+	@property
 	def count_produtos(self):
 		return len(self._produtos)		
 
@@ -22,11 +26,11 @@ class Carrinho(object):
 
 		return info_produtos
 
-	def count_produto(self,produto):
-		nome_produto = produto.nome.lower()
+	def count_produto(self,nome_produto):
+		nome_produto = nome_produto.lower()
 
 		return self.detalhes().get(nome_produto,0)
-		
+	
 	def add_produto(self,produto):
 		self._produtos.append(produto)
 

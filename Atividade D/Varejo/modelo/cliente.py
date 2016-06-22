@@ -19,6 +19,6 @@ class Cliente(object):
 
 	def __add__(self,pontos):
 		self._pontos += pontos
-
+	
 	def __repr__(self):
 		return "{} , {} pontos".format(self.nome,self.pontos)
