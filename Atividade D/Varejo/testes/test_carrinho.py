@@ -78,7 +78,7 @@ class TestaCarrinho(unittest.TestCase):
 		for produto in [produto1,produto2,produto3,produto4,produto5]:
 			carrinho.add_produto(produto)
 
-		self.assertEqual(carrinho.count_produto(produto1),2)
+		self.assertEqual(carrinho.count_produto(produto1.nome),2)
 
 if __name__ == "__main__":
 	unittest.main()
