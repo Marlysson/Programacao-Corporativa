@@ -10,7 +10,7 @@
 O classe Compra deve lidar com a Promoção aplicada a ele de acordo com as regras acima.
 
 #### Diagrama de Classes
-![Diagrama de Classes](diagrama.jpeg)
+![Diagrama de Classes](diagrama.jpg)
 
 > Pode sofrer alterações futuras por conta de refatorações, modelo inicial.
 
