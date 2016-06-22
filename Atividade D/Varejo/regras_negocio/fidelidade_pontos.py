@@ -10,5 +10,7 @@ class Fidelidade1000Pontos(Promocao):
 
 			pontos_atual = compra.cliente.pontos - 1000
 			compra.cliente.pontos = pontos_atual
-
+		else:
+			desconto = 0
+			
 		return desconto
