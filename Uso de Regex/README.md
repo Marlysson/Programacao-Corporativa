@@ -34,17 +34,17 @@ Endereço IP: Ex.: 192.168.2.1
 
 
 ## Validação 5
-```
-\(?(?P<ddd>\d{2})\)?[- ](\d{9}|\d{3,5})-?\d{4}  ( with flags /gm )
-```
 
-Ex: Telefones:
+>Ex: Telefones:
 
 - (32) 225-1920
 - 86-99975-0202
 - (86) 3221-1920
 - 86-032211313
 
+```
+\(?(?P<ddd>\d{2})\)?[- ](\d{9}|\d{3,5})-?\d{4}  ( with flags /gm )
+```
 
 ## Validação 6
 > Validação de usuário: só pode conter com letras minúsculas. E ter no máximo 8
