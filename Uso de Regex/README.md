@@ -53,7 +53,7 @@ caracteres: podendo ser números, underlines e traços
 ^[a-z_\d-]{1,8}$
 ```
 
-Validação 7
+## Validação 7
 
 > Formato: 19h32min16s
 
@@ -61,13 +61,14 @@ Validação 7
 ^(?P<horas>[01]{1}[0-9]|2[0-3])h(?P<minutos>[0-5][0-9])min(?P<segundos>[0-5][0-9])s$
 ```
 
-Validação 8
+##Validação 8
+
 > Ex:
 1. 10/10/2016
 2. 10/Jan/2016
 3. 10 de Janeiro de 2016
 
-Validação do formato 1
+#### Validação do formato 1
 
 >10/10/2006
 
@@ -77,7 +78,7 @@ Validação do formato 1
 (?P<ano>19([0]{2}|\d{2})|2\d{3})
 ```
 
-Validação do formato 2
+#### Validação do formato 2
 
 >10/Jan/2016
 
@@ -87,7 +88,7 @@ Validação do formato 2
 (?P<ano>19([0]{2}|\d{2})|2\d{3})
 ```
 
-Validação do formato 3
+#### Validação do formato 3
 
 >10 de Janeiro de 2016
 
